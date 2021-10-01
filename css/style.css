@@ -320,6 +320,9 @@ footer a:hover {
 
 @media (min-width: 1024px) {
 
+    .container {
+        padding: 0 40px;
+    }
 
     header .top-header .logo {
         width: 240px;
@@ -328,15 +331,22 @@ footer a:hover {
     header .bottom-header {
         flex-direction: row;
         text-align: left;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header .header-left {
+        max-width: 468px;
+        width: 100%;
+    }
+
+    header .header-right {
         max-width: 600px;
         width: 100%;
     }
 
     header .bottom-header .header-left h1 {
-        padding-right: 73px;
+        font-size: 2em;
     }
 
     .grow-together .container,
