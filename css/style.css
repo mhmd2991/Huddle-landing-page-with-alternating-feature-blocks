@@ -64,8 +64,6 @@ img {
 
 .container {
     margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
     padding: 0 15px;
     overflow: hidden;
 }
@@ -73,7 +71,7 @@ img {
 /*Header Section*/
 
 header {
-    padding: 55px 17px 118px 17px;
+    padding: 55px 17px 30px 17px;
     background: url(../images/bg-hero-mobile.svg) no-repeat var(--veryPaleCyan);
     background-size: cover;
 }
@@ -321,6 +319,7 @@ footer a:hover {
 @media (min-width: 1024px) {
 
     .container {
+        max-width: 1440px;
         padding: 0 40px;
     }
 
